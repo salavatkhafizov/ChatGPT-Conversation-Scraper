@@ -1,5 +1,7 @@
 # ChatGPT-Conversation-Scraper
 This Python script lets you extract text from conversation with ChatGPT
+
+
 Initial Requirements and Setup Instructions for Running the Code
 
 This guide outlines the requirements and detailed steps to successfully execute the provided Python script for scraping and processing conversations.
