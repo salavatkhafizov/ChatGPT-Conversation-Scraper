@@ -2,28 +2,27 @@
 This Python script lets you extract text from conversation with ChatGPT
 
 
-Initial Requirements and Setup Instructions for Running the Code
+**Initial Requirements and Setup Instructions for Running the Code**
 
 This guide outlines the requirements and detailed steps to successfully execute the provided Python script for scraping and processing conversations.
 
-System Requirements
+**System Requirements**
 	1.	Operating System: The script is compatible with:
-	•	Windows 10 or later
-	•	macOS Catalina or later
-	•	Linux distributions (e.g., Ubuntu 20.04 or later)
+		•	Windows 10 or later
+		•	macOS Catalina or later
+		•	Linux distributions (e.g., Ubuntu 20.04 or later)
 	2.	Python Version:
-	•	Python 3.8 or later is required.
+		•	Python 3.8 or later is required.
 	3.	Google Chrome:
-	•	Install the latest version of Google Chrome.
-	•	Ensure the installed Chrome version matches the required ChromeDriver version.
+		•	Install the latest version of Google Chrome.
+		•	Ensure the installed Chrome version matches the required ChromeDriver version.
 	4.	ChromeDriver:
-	•	Download the appropriate version of ChromeDriver corresponding to your Chrome version from ChromeDriver official website.
+		•	Download the appropriate version of ChromeDriver corresponding to your Chrome version from ChromeDriver official website.
 	5.	Hardware:
-	•	At least 4 GB of RAM.
-	•	A stable internet connection for web scraping.
+		•	At least 4 GB of RAM.
+		•	A stable internet connection for web scraping.
 
-Required Python Libraries
-
+**Required Python Libraries**
 Install the following Python libraries before running the script:
 	•	selenium: For browser automation.
 	•	logging: For runtime logs (built-in with Python).
@@ -32,9 +31,9 @@ Install the following Python libraries before running the script:
 
 To install the required library, use:
 
-pip install selenium
+	pip install selenium
 
-Setting Up a Virtual Environment
+**Setting Up a Virtual Environment**
 
 It is recommended to use a virtual environment to isolate dependencies and avoid conflicts.
 
@@ -67,7 +66,7 @@ source venv/bin/activate
 
 pip install selenium
 
-Setting Up ChromeDriver
+**Setting Up ChromeDriver**
 	1.	Download ChromeDriver:
 	•	Visit ChromeDriver Downloads.
 	•	Select the version matching your installed Google Chrome.
@@ -82,13 +81,13 @@ Run the following command to verify ChromeDriver is correctly installed:
 
 chromedriver --version
 
-Running the Script
+**Running the Script**
 	1.	Clone or download the script to your local machine.
 	2.	Open a terminal or command prompt and navigate to the script directory.
 	3.	Activate the virtual environment (if set up).
 	4.	Run the script:
 
-python script_name.py
+python gptscraper.py
 
 
 	5.	Follow the on-screen prompts:
@@ -96,7 +95,7 @@ python script_name.py
 	•	Choose the save format (txt or json).
 	•	Provide a file name for saving the extracted data (or leave blank to print to the console).
 
-Specific Instructions for Different Systems
+**Specific Instructions for Different Systems**
 
 On Windows:
 	1.	Ensure Python is installed and added to PATH.
@@ -126,8 +125,7 @@ pip install selenium
 	4.	Timeouts:
 	•	If the page takes longer to load, increase the time.sleep() duration in the script.
 
-Verifying Functionality
-
+**Verifying Functionality**
 After running the script:
 	•	Check the scraper.log file for execution logs.
 	•	Verify the extracted data in the specified output file or console output.
