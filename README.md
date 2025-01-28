@@ -1,6 +1,6 @@
 # ChatGPT Conversation Scraper
 
-A Python utility for extracting conversations from ChatGPT interface with support for text and JSON exports.
+A Python utility for extracting conversations from ChatGPT interface with support for text and JSON exports. To use it you need first to share ChatGPT chat and get a weblink for it.
 
 ## Features
 - Clean extraction of ChatGPT conversations
