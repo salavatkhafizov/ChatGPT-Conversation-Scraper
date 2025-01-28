@@ -41,12 +41,12 @@ On Windows:
 	1.	Open the command prompt and navigate to the project directory.
 	2.	Create a virtual environment:
 
-python -m venv venv
+	python -m venv venv
 
 
 	3.	Activate the virtual environment:
 
-venv\Scripts\activate
+	venv\Scripts\activate
 
 
 
@@ -54,17 +54,17 @@ On macOS/Linux:
 	1.	Open a terminal and navigate to the project directory.
 	2.	Create a virtual environment:
 
-python3 -m venv venv
+	python3 -m venv venv
 
 
 	3.	Activate the virtual environment:
 
-source venv/bin/activate
+	source venv/bin/activate
 
 
 	4.	Install the required library within the virtual environment:
 
-pip install selenium
+	pip install selenium
 
 **Setting Up ChromeDriver**
 	1.	Download ChromeDriver:
@@ -79,7 +79,7 @@ pip install selenium
 	3.	Test Installation:
 Run the following command to verify ChromeDriver is correctly installed:
 
-chromedriver --version
+	chromedriver --version
 
 **Running the Script**
 	1.	Clone or download the script to your local machine.
@@ -113,13 +113,13 @@ Common Issues and Fixes
 	2.	Permission Errors:
 	•	On macOS/Linux, ensure ChromeDriver has executable permissions:
 
-chmod +x /path/to/chromedriver
+	chmod +x /path/to/chromedriver
 
 
 	3.	Missing Libraries:
 	•	If the script fails due to missing libraries, install them using:
 
-pip install selenium
+	pip install selenium
 
 
 	4.	Timeouts:
